@@ -5,7 +5,7 @@ class Tilelist extends React.Component {
 	state = require("./DiabetesTypeData.json");
 	render() {
 		return (
-			<div className="card-group">
+			<div className="card-group mb-5">
 				<Tile data={this.state[0]} />
 				<Tile data={this.state[1]} />
 				<Tile data={this.state[2]} />

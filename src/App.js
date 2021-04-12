@@ -3,7 +3,6 @@ import MainContent from "./component/MainContent";
 import Footer from "./component/Footer";
 import Slider from "./component/Slider";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Tilelist from "./component/Tilelist";
 
 function App() {
 	return (
@@ -11,7 +10,6 @@ function App() {
 			<Header />
 			<Slider />
 			<MainContent />
-			<Tilelist />
 			<Footer />
 		</div>
 	);
