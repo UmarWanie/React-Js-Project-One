@@ -1,16 +1,17 @@
-import React from "react"
-import Logo from "./Logo"
-import NavBar from "./NavBar"
+import React from "react";
+import Logo from "./Logo";
+import NavBar from "./NavBar";
 
-import "./header.css"
+import "./header.css";
 
 class Header extends React.Component {
-  render() {
-    return (
-      <div>
-        <NavBar />
-      </div>
-      )
-  }
+	render() {
+		return (
+			<div>
+				<NavBar />
+				<NavBar />
+			</div>
+		);
+	}
 }
-export default Header
+export default Header;
