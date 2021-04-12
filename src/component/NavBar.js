@@ -47,7 +47,7 @@ class NavBar extends React.Component {
 								data-toggle="dropdown"
 								aria-haspopup="true"
 								aria-expanded="false">
-								User
+								User r
 							</a>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a className="dropdown-item" href="#abc">
