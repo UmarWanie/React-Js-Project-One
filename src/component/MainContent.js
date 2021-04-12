@@ -1,12 +1,13 @@
 import React from "react";
 import LoginForm from "./LoginForm";
-import "./maincontent.css";
+import Tilelist from "./Tilelist";
 
 class MainContent extends React.Component {
 	render() {
 		return (
-			<div className="main_content">
+			<div className="container">
 				<LoginForm />
+				<Tilelist />
 			</div>
 		);
 	}
