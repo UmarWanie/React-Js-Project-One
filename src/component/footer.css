@@ -1,0 +1,8 @@
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color: #0554f2;
+	color: white;
+	margin-top: auto;
+	display: flex;
+}
