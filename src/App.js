@@ -2,8 +2,8 @@ import Header from "./component/Header";
 import MainContent from "./component/MainContent";
 import Footer from "./component/Footer";
 import Slider from "./component/Slider";
-import Dbtypes from "./component/DbTypes";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Tilelist from "./component/Tilelist";
 
 function App() {
 	return (
@@ -11,7 +11,7 @@ function App() {
 			<Header />
 			<Slider />
 			<MainContent />
-			<Dbtypes />
+			<Tilelist />
 			<Footer />
 		</div>
 	);
