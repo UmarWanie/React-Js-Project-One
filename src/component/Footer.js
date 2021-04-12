@@ -9,7 +9,7 @@ class Footer extends React.Component {
 					<nav>
 						<p class="copyright text-center">
 							©<script>document.write(new Date().getFullYear())</script>
-							Designed and Developed by <strong>UmarWani & Aamir Sofi</strong>
+							Designed & Developed by <strong>UmarWani & Aamir Sofi</strong>
 						</p>
 					</nav>
 				</div>
