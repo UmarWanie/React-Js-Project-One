@@ -8,6 +8,7 @@ class Header extends React.Component {
 		return (
 			<div>
 				<NavBar />
+				<span>Just Testing</span>
 			</div>
 		);
 	}
