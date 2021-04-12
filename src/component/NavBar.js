@@ -56,8 +56,8 @@ class NavBar extends React.Component {
 								<a className="dropdown-item" href="#abc">
 									Sign Up
 								</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#def">
+								<div className="dropdown-divider"></div>
+								<a className="dropdown-item" href="#def">
 									Admin Login
 								</a>
 							</div>
