@@ -13,7 +13,7 @@ class NavBar extends React.Component {
 						className="d-inline-block align-top"
 						alt=""
 					/>
-					DPS
+					Diabetes Prediction System
 				</a>
 				<button
 					className="navbar-toggler"
@@ -27,7 +27,7 @@ class NavBar extends React.Component {
 				</button>
 
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul className="navbar-nav mr-auto">
+					<ul className="navbar-nav m-auto">
 						<li className="nav-item active">
 							<a className="nav-link" href="#abc">
 								Home <span className="sr-only">(current)</span>
@@ -35,7 +35,7 @@ class NavBar extends React.Component {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#abc">
-								Admin
+								Predict
 							</a>
 						</li>
 						<li className="nav-item dropdown">
@@ -47,7 +47,7 @@ class NavBar extends React.Component {
 								data-toggle="dropdown"
 								aria-haspopup="true"
 								aria-expanded="false">
-								User r
+								Account
 							</a>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a className="dropdown-item" href="#abc">
@@ -56,27 +56,18 @@ class NavBar extends React.Component {
 								<a className="dropdown-item" href="#abc">
 									Sign Up
 								</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#def">
+									Admin Login
+								</a>
 							</div>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#abc">
-								Predict
+								About
 							</a>
 						</li>
 					</ul>
-					<form className="form-inline my-2 my-lg-0">
-						<input
-							className="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button
-							className="btn btn-outline-success my-2 my-sm-0"
-							type="submit">
-							Search
-						</button>
-					</form>
 				</div>
 			</nav>
 		);
