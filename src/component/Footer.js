@@ -4,8 +4,8 @@ import "./footer.css";
 class Footer extends React.Component {
 	render() {
 		return (
-			<footer class="footer">
-				<div class="container-fluid">
+			<footer class="footer bg-dark">
+				<div class="container-fluid pt-3">
 					<nav>
 						<p class="copyright text-center">
 							©<script>document.write(new Date().getFullYear())</script>
