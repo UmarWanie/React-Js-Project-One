@@ -2,12 +2,13 @@ import React from "react";
 import wave from "../wave.png";
 import bg from "../bg.svg";
 import avatar from "../avatar.svg";
+import "./login.css";
 
 function LoginForm() {
 	return (
 		<div>
 			<img className="wave" src={wave} alt=".." />
-			<div className="container">
+			<div className="login_container">
 				<div className="img">
 					<img src={bg} alt="..." />
 				</div>
