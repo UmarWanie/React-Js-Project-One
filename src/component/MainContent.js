@@ -1,5 +1,5 @@
 import React from "react";
-import LoginForm from "./LoginForm";
+import LoginForm from "./Login2";
 import Tilelist from "./Tilelist";
 
 class MainContent extends React.Component {
